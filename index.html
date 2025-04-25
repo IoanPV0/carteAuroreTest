@@ -43,9 +43,7 @@
         const ouvertData = jsonData.filter(row => row.Statut === "Ouvert");
         console.clear();
 
-        let cpt = 1;
         for (const row of ouvertData) {
-          console.log(cpt++);
           const adresse = `${row.Adresse}, ${row.CP} ${row.Ville}`;
           const nom = row["Nom de la mission"] || "Inconnu";
           const description = row["Description et objectifs"] || "Aucune description fournie";
