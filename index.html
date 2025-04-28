@@ -52,12 +52,12 @@
             if (typeof dateOuverture === 'number') {
                 dateOuverture = excelDateToJSDate(dateOuverture);
             }
-
+            const territoire = row["Territoire"] || "Inconnu";
           try {
             const coords = await getOrGeocode(adresse);
             if (coords) {
               L.marker([coords.lat, coords.lon]).addTo(map)
-                .bindPopup(`<strong>${nom}</strong><p>${adresse}</p><p>Territoire : ${Territoire}</p><p>Date ouverture : ${dateOuverture}</p><p>Description : ${description}</p>`);
+                .bindPopup(`<strong>${nom}</strong><p>${adresse}</p><p>Territoire : ${territoire}</p><p>Date ouverture : ${dateOuverture}</p><p>Description : ${description}</p>`);
             }
           } catch (err) {
             console.error("Erreur de géocodage:", err);
