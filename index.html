@@ -23,7 +23,17 @@
     }).addTo(map);
 
     const apiKey = '2164e0e6e2b54796be75d32f6cba57f1';
-    const cache = JSON.parse(localStorage.getItem('geoCache') || '{}');
+    let cache = {};
+
+    fetch('geo_cache.json')
+      .then(response => response.json())
+      .then(data => {
+        cache = data;
+      })
+      .catch(err => {
+        console.warn("Pas de cache trouvé, un nouveau sera créé.");
+    });
+
 
     document.getElementById('upload').addEventListener('change', function(e) {
       const file = e.target.files[0];
@@ -99,14 +109,23 @@
     }
 
     function exportCache() {
-      const blob = new Blob([JSON.stringify(cache, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "geo_cache.json";
-      a.click();
-      URL.revokeObjectURL(url);
+      fetch('sauver_cache.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(cache)
+      })
+      .then(response => response.text())
+      .then(data => {
+        alert('Cache sauvegardé sur le serveur !');
+        console.log(data);
+      })
+      .catch(error => {
+        console.error('Erreur lors de la sauvegarde du cache :', error);
+      });
     }
+
   </script>
 </body>
 </html>
