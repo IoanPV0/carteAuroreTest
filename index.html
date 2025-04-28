@@ -45,6 +45,7 @@
 
         for (const row of ouvertData) {
           const adresse = `${row.Adresse}, ${row.CP} ${row.Ville}`;
+          const territoire = `${row.Territoire}`;
           const nom = row["Nom de la mission"] || "Inconnu";
           const description = row["Description et objectifs"] || "Aucune description fournie";
           let dateOuverture = row["Date ouverture"];
@@ -52,7 +53,6 @@
             if (typeof dateOuverture === 'number') {
                 dateOuverture = excelDateToJSDate(dateOuverture);
             }
-            const territoire = row["Territoire"] || "Inconnu";
           try {
             const coords = await getOrGeocode(adresse);
             if (coords) {
