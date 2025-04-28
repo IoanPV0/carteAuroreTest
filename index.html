@@ -34,14 +34,13 @@
     });
 
 
-    document.getElementById('upload').addEventListener('change', function(e) {
-      const file = e.target.files[0];
-      const reader = new FileReader();
+    window.onload = async function() { 
+      try {
+        const response = await fetch('Export_Office_20250428_113902_Export_cartographie_missions_et_signature_mail_165211.xls');
+        const data = await response.arrayBuffer();
 
-      reader.onload = async function(event) {
-        const workbook = XLSX.read(event.target.result, { type: 'binary' });
+        const workbook = XLSX.read(data, { type: 'array' });
 
-        // Nettoyer les anciens marqueurs sauf la couche fond de carte
         map.eachLayer(layer => {
           if (!layer._url) map.removeLayer(layer);
         });
@@ -59,9 +58,9 @@
           const description = row["Description et objectifs"] || "Aucune description fournie";
           let dateOuverture = row["Date ouverture"];
 
-            if (typeof dateOuverture === 'number') {
-                dateOuverture = excelDateToJSDate(dateOuverture);
-            }
+          if (typeof dateOuverture === 'number') {
+            dateOuverture = excelDateToJSDate(dateOuverture);
+          }
           try {
             const coords = await getOrGeocode(adresse);
             if (coords) {
@@ -75,12 +74,12 @@
 
         // Mettre à jour le cache dans le navigateur
         localStorage.setItem('geoCache', JSON.stringify(cache));
-        alert("Géocodage terminé avec cache mis à jour");
         exportCache();
-      };
 
-      reader.readAsBinaryString(file);
-    });
+      } catch (error) {
+        console.error('Erreur lors de la lecture du fichier Excel:', error);
+      }
+    };
 
     async function getOrGeocode(adresse) {
       if (cache[adresse]) return cache[adresse];
