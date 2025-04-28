@@ -1,0 +1,954 @@
+{
+  "11 RUE HENRI DESGRANGES, 75012 PARIS": {
+    "lat": 48.8412,
+    "lon": 2.3876
+  },
+  "61 BOULEVARD MAGENTA, 75010 PARIS": {
+    "lat": 48.8740578,
+    "lon": 2.3578226
+  },
+  "6 PLACE HENRI FRENAY, 75012 PARIS": {
+    "lat": 48.8450042,
+    "lon": 2.3767745
+  },
+  "16/18 passage Raguinot-75012 PARIS, 75012 PARIS": {
+    "lat": 48.8449532,
+    "lon": 2.3786687
+  },
+  "9 rue de la Durance, 75012 PARIS": {
+    "lat": 48.8384093,
+    "lon": 2.3933518
+  },
+  "14 Boulevard Vaugirard, 75015 PARIS": {
+    "lat": 48.8419352,
+    "lon": 2.3193154
+  },
+  "3 ALLEE DE LA NOUE BROSSARD, 77500 CHELLES": {
+    "lat": 48.8853,
+    "lon": 2.5773036
+  },
+  "31 RUE LOUIS CHAMPION, 95870 BEZONS": {
+    "lat": 48.928016,
+    "lon": 2.2261683
+  },
+  "8 rue des Coquelicots, 95870 BEZONS": {
+    "lat": 48.9348285,
+    "lon": 2.2171944
+  },
+  "17 PLACE HENRI CORDESSE, 48100 MARVEJOLS": {
+    "lat": 44.5525827,
+    "lon": 3.2912743
+  },
+  "7 rue Cristino Garcia, 75020 Paris": {
+    "lat": 48.8496754,
+    "lon": 2.4144609
+  },
+  "20 rue du clos feuquieres, 75015 PARIS": {
+    "lat": 48.8364006,
+    "lon": 2.2921404
+  },
+  "20 RUE DU CLOS FEUQUIERES, 75015 PARIS": {
+    "lat": 48.8364006,
+    "lon": 2.2921404
+  },
+  "24 QUAI D AUSTERLITZ, 75013 PARIS": {
+    "lat": 48.8396702,
+    "lon": 2.3715643
+  },
+  "14 RUE DE LA BEAUNE, 93100 MONTREUIL": {
+    "lat": 48.8618309,
+    "lon": 2.4359251
+  },
+  "9 RUE COLBERT, 93300 AUBERVILLIERS": {
+    "lat": 48.919704,
+    "lon": 2.3971
+  },
+  "10 RUE LEON BLOY, 24000 PERIGUEUX": {
+    "lat": 45.1790128,
+    "lon": 0.7249915
+  },
+  "12 RUE JULES CESAR - IMMEUBLE LE CESAR, 95520 OSNY": {
+    "lat": 49.0594,
+    "lon": 2.0618
+  },
+  "2 RUE GASTON BILLOTE, 10000 TROYES": {
+    "lat": 48.3,
+    "lon": 4.0833
+  },
+  "140 RUE DU CHEVALERET, 75013 PARIS": {
+    "lat": 48.8342204,
+    "lon": 2.368105
+  },
+  "29 RUE DE L INDRE, 44000 NANTES": {
+    "lat": 47.2140572,
+    "lon": -1.537508
+  },
+  "9 rond-point Thiers, 93340 Le Raincy": {
+    "lat": 48.8993225,
+    "lon": 2.5175039
+  },
+  "123 AVENUE DU GENERAL LECLERC, 15000 AURILLAC": {
+    "lat": 44.9105535,
+    "lon": 2.4454458
+  },
+  "17 RUE DU COLONEL DRIANT, 10000 TROYES": {
+    "lat": 48.2948795,
+    "lon": 4.0678207
+  },
+  "26 RUE DES QUINZE-VINGTS, 10000 TROYES": {
+    "lat": 48.2961167,
+    "lon": 4.0721701
+  },
+  "6 et 7 RUE ARCHIMEDE, 10600 LA CHAPELLE SAINT LUC": {
+    "lat": 48.3826,
+    "lon": 3.9776
+  },
+  "6 avenue des Lombards, 10000 TROYES": {
+    "lat": 48.2767314,
+    "lon": 4.0680942
+  },
+  "ALLEE DES CHEVREFEUILLES, 93270 SEVRAN": {
+    "lat": 48.9448081,
+    "lon": 2.5386473
+  },
+  "42 RUE AUGUSTIN MOREAU, 93270 SEVRAN": {
+    "lat": 48.941731,
+    "lon": 2.511651
+  },
+  "26 RUE DES QUINZE VINGTS, 10000 TROYES": {
+    "lat": 48.2961167,
+    "lon": 4.0721701
+  },
+  "13 rue Saint Luc, 75018 Paris": {
+    "lat": 48.8864237,
+    "lon": 2.3539133
+  },
+  "68 bd Ney, 75018 PARIS": {
+    "lat": 48.8982796,
+    "lon": 2.3544646
+  },
+  "52 AVENUE DE FLANDRE, 75019 PARIS": {
+    "lat": 48.8875068,
+    "lon": 2.3733279
+  },
+  "8 RUE GEORGES CLEMENCEAU, 93220 GAGNY": {
+    "lat": 48.884654,
+    "lon": 2.5242799
+  },
+  "85/91 RUE VEUVE CROIX - BAT B, 92000 NANTERRE": {
+    "lat": 48.892,
+    "lon": 2.2067
+  },
+  "13 RUE SANTEUIL, 75005 PARIS": {
+    "lat": 48.8398174,
+    "lon": 2.353964
+  },
+  "9 RUE PRE VIVAL, RESIDENCE LE VIVALDI, 48000 MENDE": {
+    "lat": 44.4558,
+    "lon": 3.5632
+  },
+  "6/14 RUE DE LEIBNIZ, 75018 PARIS": {
+    "lat": 48.8925,
+    "lon": 2.3444
+  },
+  "17 RUE VICTOR MASSE, 75009 PARIS": {
+    "lat": 48.8806833,
+    "lon": 2.3386916
+  },
+  "58 RUE REGNAULT, 75013 PARIS": {
+    "lat": 48.8239701,
+    "lon": 2.3742312
+  },
+  "18/30 RUE SAINT-ANTOINE, 93100 MONTREUIL": {
+    "lat": 48.866493,
+    "lon": 2.4640155
+  },
+  "6 BOULEVARD GUTENBERG, 93190 LIVRY GARGAN": {
+    "lat": 48.9129816,
+    "lon": 2.5183616
+  },
+  "1 rue Florian, 75020 PARIS": {
+    "lat": 48.858237,
+    "lon": 2.4044733
+  },
+  "67 rue Vergniaud, 75013 PARIS": {
+    "lat": 48.8249281,
+    "lon": 2.344933
+  },
+  "14 rue de la Beaune, 93100 MONTREUIL": {
+    "lat": 48.8618309,
+    "lon": 2.4359251
+  },
+  "75 RUE DU CLOS DES NOYERS, 94700 MAISONS-ALFORT": {
+    "lat": 48.793769,
+    "lon": 2.439691
+  },
+  "5 RUE JACQUES DECOUR, 95140 GARGES-LES-GONESSE": {
+    "lat": 48.9756597,
+    "lon": 2.4140004
+  },
+  "5 rue Jacques Decour, 95140 GARGES-LES-GONESSE": {
+    "lat": 48.9756597,
+    "lon": 2.4140004
+  },
+  "52 RUE RENE GILLET, 10800 SAINT JULIEN LES VILLAS": {
+    "lat": 48.2701018,
+    "lon": 4.0950059
+  },
+  "92 AVENUE DE PARIS, 94800 VILLEJUIF": {
+    "lat": 48.8003598,
+    "lon": 2.3650795
+  },
+  "16 RUE DE L'EGALITE, 95500 GONESSE": {
+    "lat": 48.9987718,
+    "lon": 2.4182894
+  },
+  "23 RUE CHARLES DARWIN, 15000 AURILLAC": {
+    "lat": 44.9199548,
+    "lon": 2.4264837
+  },
+  "8 ALLEE DU DOCTEUR GUERIN, 91200 ATHIS-MONS": {
+    "lat": 48.7009452,
+    "lon": 2.3837889
+  },
+  "6/8 RUE EMMANUEL CHAUVIERE, 75015 PARIS": {
+    "lat": 48.8434492,
+    "lon": 2.2795726
+  },
+  "13 RUE SAINT-LUC, 75018 PARIS": {
+    "lat": 48.8864237,
+    "lon": 2.3539133
+  },
+  "BOULEVARD ROBERT BALLANGER, 93600 AULNAY-SOUS-BOIS": {
+    "lat": 48.9504631,
+    "lon": 2.5238137
+  },
+  "20 BOULEVARD PONIATOWSKI, 75012 PARIS": {
+    "lat": 48.8304205,
+    "lon": 2.3917185
+  },
+  "26  RUE DES QUINZE-VINGTS, 10000 TROYES": {
+    "lat": 48.2961167,
+    "lon": 4.0721701
+  },
+  "132 RUE JULES FERRY, 77360 VAIRES SUR MARNE": {
+    "lat": 48.8731076,
+    "lon": 2.6317015
+  },
+  "7 rue du Sénégal, 75020 PARIS": {
+    "lat": 48.8712913,
+    "lon": 2.3825621
+  },
+  "6 RUE VICTOR GRIFFUELHES, 92100 BOULOGNE-BILLANCOURT": {
+    "lat": 48.830485,
+    "lon": 2.2422444
+  },
+  "89 AVENUE ARISTIDE BRIAND, 92120 MONTROUGE": {
+    "lat": 48.8147729,
+    "lon": 2.3260389
+  },
+  "31 RUE DE LA FOLIE REGNAULT, 75011 PARIS": {
+    "lat": 48.8585597,
+    "lon": 2.3871927
+  },
+  "10 RUE MONTESSON, 95870 BEZONS": {
+    "lat": 48.923077,
+    "lon": 2.206021
+  },
+  "52 RUE RENE GILLET, 10800 ST JULIEN LES VILLAS": {
+    "lat": 48.2701018,
+    "lon": 4.0950059
+  },
+  "9/11 RUE SOLEILLET, 75020 PARIS": {
+    "lat": 48.865767,
+    "lon": 2.3919686
+  },
+  "34 boulevard sébastopol, 75004 PARIS": {
+    "lat": 48.8612689,
+    "lon": 2.3499708
+  },
+  "33 RUE DES CEVENNES, 75015 PARIS": {
+    "lat": 48.8433948,
+    "lon": 2.2787799
+  },
+  "5 AVENUE CHARLES INFROIT, 93220 GAGNY": {
+    "lat": 48.867932,
+    "lon": 2.558712
+  },
+  "45 RUE DES GARREMENTS, 92140 CLAMART": {
+    "lat": 48.8104489,
+    "lon": 2.2739876
+  },
+  "6 rue Victor Griffuelhes, 92100 BOULOGNE-BILLANCOURT": {
+    "lat": 48.830485,
+    "lon": 2.2422444
+  },
+  "25 rue nationale, 92100 BOULOGNE-BILLANCOURT": {
+    "lat": 48.8254427,
+    "lon": 2.2435914
+  },
+  "25, rue nationale, 92100 BOULOGNE-BILLANCOURT": {
+    "lat": 48.8254427,
+    "lon": 2.2435914
+  },
+  "4 BIS RUE PIERRE DUPONT, 92150 SURESNES": {
+    "lat": 48.8677537,
+    "lon": 2.224321
+  },
+  "12 BOULEVARD PONIATOWSKI, 75012 PARIS": {
+    "lat": 48.8342271,
+    "lon": 2.4046106
+  },
+  "12/14 PASSAGE RAGUINOT, 75012 PARIS": {
+    "lat": 48.8449532,
+    "lon": 2.3786687
+  },
+  "16 Rue Charles Delescluze, 75011 PARIS": {
+    "lat": 48.8524406,
+    "lon": 2.3808071
+  },
+  "35 RUE DU CHATEAU, 77390 CHAUMES EN BRIE": {
+    "lat": 48.6641456,
+    "lon": 2.8612348
+  },
+  "4 ALLEE DE L'ARTOIS appartement 2031, 77500CHELLES, 77500 CHELLES": {
+    "lat": 48.8811,
+    "lon": 2.5929
+  },
+  "12 RUE HENRI RIBIERE, 75019 PARIS": {
+    "lat": 48.8766241,
+    "lon": 2.3956265
+  },
+  "3-5-7 RUE CRISTINO GARCIA, 75020 PARIS": {
+    "lat": 48.8498967,
+    "lon": 2.4139988
+  },
+  "27 RUE DE L ACQUEDUC, 75010 PARIS": {
+    "lat": 33.0304,
+    "lon": -96.8777
+  },
+  "27 CHEMIN DE L'AUBERDERIE, 78160 MARLY LE ROI": {
+    "lat": 48.8667277,
+    "lon": 2.0804362
+  },
+  "1 AVENUE PIERRE SEMARD, 94200 IVRY SUR SEINE": {
+    "lat": 48.8207713,
+    "lon": 2.3797449
+  },
+  "41 RUE PARMENTIER, 94550 CHEVILLY LARUE": {
+    "lat": 48.767685,
+    "lon": 2.363706
+  },
+  "33 rue des Cévennes, 75015 PARIS": {
+    "lat": 48.8433948,
+    "lon": 2.2787799
+  },
+  "2 place de la manu, 44000 NANTES": {
+    "lat": 47.2202387,
+    "lon": -1.5356305
+  },
+  "8 quart rue de la mitrie, 44000 NANTES": {
+    "lat": 47.2173,
+    "lon": -1.5534
+  },
+  "8 ter AVENUE RENE COTY, 75014 PARIS": {
+    "lat": 48.8316402,
+    "lon": 2.3331719
+  },
+  "19 ALLEE DES FORTIFICATIONS, 75016 PARIS": {
+    "lat": 48.8532455,
+    "lon": 2.2602289
+  },
+  "15 ALLEE THEOPHILE BINET, 93340 LE RAINCY": {
+    "lat": 48.893055,
+    "lon": 2.514806
+  },
+  "14 RUE DE LA MARE A L ANE, 93100 MONTREUIL": {
+    "lat": 48.861584,
+    "lon": 2.46004
+  },
+  "24 AVENUE JEAN MOULIN, 93100 MONTREUIL": {
+    "lat": 48.859591,
+    "lon": 2.451062
+  },
+  "45 RUE DU GENERAL DE GAULLE, 93360 NEUILLY PLAISANCE": {
+    "lat": 48.863054,
+    "lon": 2.506864
+  },
+  "17 AVENUE DU 8 MAI 1945, 91120 PALAISEAU": {
+    "lat": 48.7108958,
+    "lon": 2.2443952
+  },
+  "13/17 RUE YVES LE CAIGNARD, 92250 LA GARENNE-COLOMBES": {
+    "lat": 48.9080273,
+    "lon": 2.2360204
+  },
+  "5/7 IMPASSE DU LABRADOR - 35 RUE DES CEVENNES, 75015 PARIS": {
+    "lat": 48.8291748,
+    "lon": 2.303142
+  },
+  "1 Rue Chardon-Lagache, 75016 PARIS": {
+    "lat": 48.8469685,
+    "lon": 2.2687163
+  },
+  "1 RUE JEAN-BAPTISTE CLEMENT, 93310 LE PRE ST GERVAIS": {
+    "lat": 48.8889455,
+    "lon": 2.4006267
+  },
+  "MAISON D ANDRE LE GORREC LE GRAND BOST, 24310 BRANTOME EN PERIGORD": {
+    "lat": 45.388,
+    "lon": 0.5888
+  },
+  "13/15 RUE MADELEINE VIONNET, 93300 AUBERVILLIERS": {
+    "lat": 48.9020984,
+    "lon": 2.3730845
+  },
+  "47, rue de Thorigny, 77500 CHELLES": {
+    "lat": 48.8826958,
+    "lon": 2.6152369
+  },
+  "23 RUE DES TERRES-AU-CURE, 75013 PARIS": {
+    "lat": 48.8245004,
+    "lon": 2.3719603
+  },
+  "8 RUE DE SANTEUIL, 75005 PARIS": {
+    "lat": 48.8448,
+    "lon": 2.3471
+  },
+  "13 RUE DES ECLUSES SAINT-MARTIN, 75010 PARIS": {
+    "lat": 48.8767521,
+    "lon": 2.3667599
+  },
+  "3 IMPASSE DES SPORTS, 79420 REFFANNES": {
+    "lat": 46.5491448,
+    "lon": -0.1889674
+  },
+  "31 rue Falguière, 75015 PARIS": {
+    "lat": 48.8426182,
+    "lon": 2.316277
+  },
+  "26 RUE GARIBALDI, 93310 LE PRE SAINT-GERVAIS": {
+    "lat": 48.8871358,
+    "lon": 2.409575
+  },
+  "27 RUE LEVERT, 75020 PARIS": {
+    "lat": 48.8746341,
+    "lon": 2.3915987
+  },
+  "31 RUE FALGUIERE, 75015 PARIS": {
+    "lat": 48.8426182,
+    "lon": 2.316277
+  },
+  "50 RUE DE LA PROCESSION, 75015 PARIS": {
+    "lat": 48.8373179,
+    "lon": 2.3081618
+  },
+  "2 CHEMIN DE LA VIERGE, 95190 GOUSSAINVILLE": {
+    "lat": 49.021631,
+    "lon": 2.4647519
+  },
+  "1164 ROUTE DE TROYES, 10120 SAINT-GERMAIN": {
+    "lat": 48.2469977,
+    "lon": 4.0248566
+  },
+  "58 bis rue Roger Salengro, 94120 FONTENAY-SOUS-BOIS": {
+    "lat": 48.8492502,
+    "lon": 2.4888908
+  },
+  "17 RUE BERTHE MORIZOT, 78250 MEZY SUR SEINE": {
+    "lat": 49.0272,
+    "lon": 1.8493
+  },
+  "2 rue Ernest Pérochon, 79400 St Maixent l'école": {
+    "lat": 46.4123736,
+    "lon": -0.2146739
+  },
+  "1 rue Chardon Lagache 75016 Paris, 75016 PARIS": {
+    "lat": 48.8469685,
+    "lon": 2.2687163
+  },
+  "31, rue de la folie Régnault, 75011 PARIS": {
+    "lat": 48.8585597,
+    "lon": 2.3871927
+  },
+  "20 boulevard Poniatowski, 75012 PARIS": {
+    "lat": 48.8304205,
+    "lon": 2.3917185
+  },
+  "6 PLACE EUGENE LEROY, 94460 VALENTON": {
+    "lat": 48.7452238,
+    "lon": 2.4620885
+  },
+  "65 CHEMIN DES BOURDONS, 93220 GAGNY": {
+    "lat": 48.889514,
+    "lon": 2.5247626
+  },
+  "37 rue Adelaide Lahaye, 93170 BAGNOLET": {
+    "lat": 48.8669581,
+    "lon": 2.415771
+  },
+  "20 BVD PONIATOWSKI, 75012 PARIS": {
+    "lat": 48.8412,
+    "lon": 2.3876
+  },
+  "380 AVENUE DU PRESIDENT WILSON, 93200 SAINT DENIS": {
+    "lat": 48.926091,
+    "lon": 2.3573591
+  },
+  "5 RUE DELIZY, 93500 PANTIN": {
+    "lat": 48.892874,
+    "lon": 2.409474
+  },
+  "137 RUE DE LA CONVENTION, 75015 PARIS": {
+    "lat": 48.8399371,
+    "lon": 2.2907069
+  },
+  "89 RUE DU COMMERCE, 75015 PARIS": {
+    "lat": 48.8442702,
+    "lon": 2.2936136
+  },
+  "16 Impasse des huerdets, 10800 SAINT JULIEN LES VILLAS": {
+    "lat": 48.2705526,
+    "lon": 4.094985
+  },
+  "16 IMPASSE DES HUERDETS, 10800 SAINT JULIEN LES VILLAS": {
+    "lat": 48.2705526,
+    "lon": 4.094985
+  },
+  "8 RUE CLEMENCEAU, 93220 GAGNY": {
+    "lat": 48.883592,
+    "lon": 2.526956
+  },
+  "14-6 rue Leibniz, 75018 PARIS": {
+    "lat": 48.896478,
+    "lon": 2.3347757
+  },
+  "6/8 VILLA GAGLIARDINI, 75020 PARIS": {
+    "lat": 48.8755353,
+    "lon": 2.40333
+  },
+  "12 TER RUE DIAZ, 92100 BOULOGNE-BILLANCOURT": {
+    "lat": 48.8351226,
+    "lon": 2.2356231
+  },
+  "6/8 RUE LEDRU-ROLLIN, 92260 FONTENAY AUX ROSES": {
+    "lat": 48.792401,
+    "lon": 2.2843355
+  },
+  "14 RUE LECOINTRE, 92310 SEVRES": {
+    "lat": 48.823593,
+    "lon": 2.2125244
+  },
+  "44 RUE DE SEVRES, 92410 VILLE D'AVRAY": {
+    "lat": 48.826605,
+    "lon": 2.1904491
+  },
+  "11 RUE EMILE DUCLAUX, 92150 SURESNES": {
+    "lat": 48.8779469,
+    "lon": 2.2339352
+  },
+  "82 RUE JULIEN LACROIX, 75020 PARIS": {
+    "lat": 48.8730239,
+    "lon": 2.382124
+  },
+  "11 BOULEVARD DE MENILMONTANT, 75011 PARIS": {
+    "lat": 48.8591492,
+    "lon": 2.3889529
+  },
+  "180 RUE DU FAUBOURG SAINT-ANTOINE, 75012 PARIS": {
+    "lat": 48.8501994,
+    "lon": 2.3826571
+  },
+  "58 RUE DU VERTBOIS, 75003 PARIS": {
+    "lat": 48.8673857,
+    "lon": 2.3565415
+  },
+  "73 boulevard Poniatowski, 75012 PARIS": {
+    "lat": 48.8336749,
+    "lon": 2.4023161
+  },
+  "13 RUE VICTOR BASCH, 95190 GOUSSAINVILLE": {
+    "lat": 49.0292904,
+    "lon": 2.4746025
+  },
+  "11 IMPASSE DE LA PIELLE, 10000 TROYES": {
+    "lat": 48.292723,
+    "lon": 4.0847251
+  },
+  "43 RUE BELLIARD, 75018 PARIS": {
+    "lat": 48.8977248,
+    "lon": 2.3465814
+  },
+  "5 RUE DU MARCHE ORDENER, 75018 PARIS": {
+    "lat": 48.8943543,
+    "lon": 2.3344708
+  },
+  "5 RUE D AUBERVILLIERS, 75018 PARIS": {
+    "lat": 48.8848111,
+    "lon": 2.3649952
+  },
+  "5 PLACE CX 15 - 80 RUE DE LA CONVENTION, 75015 PARIS": {
+    "lat": 32.7673,
+    "lon": -96.7776
+  },
+  "22 RUE DURANTON, 75015 PARIS": {
+    "lat": 48.8399875,
+    "lon": 2.2862963
+  },
+  "14 BOULEVARD DE VAUGIRARD, 75015 PARIS": {
+    "lat": 48.8419352,
+    "lon": 2.3193154
+  },
+  "51 RUE EDOUARD BRANLY, 93100 MONTREUIL": {
+    "lat": 48.870105,
+    "lon": 2.460119
+  },
+  "38 RUE MOLIERE, 93100 MONTREUIL": {
+    "lat": 48.85803,
+    "lon": 2.442409
+  },
+  "14 RUE PEPIN, 93100 MONTREUIL": {
+    "lat": 48.8633406,
+    "lon": 2.4465881
+  },
+  "3 ALLEE DE L'ARTOIS, 77500 CHELLES": {
+    "lat": 48.882022,
+    "lon": 2.618482
+  },
+  "4 IMPASSE DES GAZELLES, 93370 MONTFERMEIL": {
+    "lat": 48.9023416,
+    "lon": 2.5640641
+  },
+  "67 rue des Berthaulds, 93110 ROSNY SOUS BOIS": {
+    "lat": 48.8702,
+    "lon": 2.4991
+  },
+  "1 PASSAGE BASFOUR, 75002 PARIS": {
+    "lat": 48.866163,
+    "lon": 2.351414
+  },
+  "25 RUE MORAND, 75011 PARIS": {
+    "lat": 48.8695498,
+    "lon": 2.3756392
+  },
+  "55/57 RUE CHARDON LAGACHE, 75016 PARIS": {
+    "lat": 48.8463949,
+    "lon": 2.268013
+  },
+  "12 RUE MARIE SKOBTSOV, 75015 PARIS": {
+    "lat": 48.8453007,
+    "lon": 2.2867942
+  },
+  "54 BIS A RUE DENIS PAPIN, 93500 PANTIN": {
+    "lat": 48.9036619,
+    "lon": 2.399607
+  },
+  "44 ALLEE DE LA FONTAINE, 93340 LE RAINCY": {
+    "lat": 48.892378,
+    "lon": 2.519367
+  },
+  "71/73 PROMENAGE HERMANN REGNIER, 93460 GOURNAY S/MARNE": {
+    "lat": 48.91667,
+    "lon": 4.16667
+  },
+  "Voir la description pour les 3 adresses, 75 PARIS": {
+    "lat": 48.85341,
+    "lon": 2.3488
+  },
+  "14 RUE MADEMOISELLE, 75015 PARIS": {
+    "lat": 48.8435443,
+    "lon": 2.2951766
+  },
+  "68 boulevard Jeanne d'Arc, 02200 SOISSONS": {
+    "lat": 49.3740365,
+    "lon": 3.323977
+  },
+  "20 Rue du Clos Feuquières, 75015 PARIS": {
+    "lat": 48.8364006,
+    "lon": 2.2921404
+  },
+  "5 RUE JACQUES DECOUR, 95140 GARGES LES GONESSE": {
+    "lat": 48.9756597,
+    "lon": 2.4140004
+  },
+  "12 AVENUE PAUL VAILLANT COUTURIER, 94800 VILLEJUIF": {
+    "lat": 48.7969538,
+    "lon": 2.3617107
+  },
+  "RUE JOUSSELIN PAVILLON DU PARC DES FONTAINES, 10000 TROYES": {
+    "lat": 48.3,
+    "lon": 4.0833
+  },
+  "14 BOULEVARD VAUGIRARD, 75015 PARIS": {
+    "lat": 48.8419352,
+    "lon": 2.3193154
+  },
+  "19 AVENUE PIERRE SEMARD, 94200 IVRY SUR SEINE": {
+    "lat": 48.8191085,
+    "lon": 2.3806287
+  },
+  "23bis avenue de Fredy, 93250 VILLEMOMBLE": {
+    "lat": 48.880745,
+    "lon": 2.520085
+  },
+  "15 rue du Roussillon, 91220 BRETIGNY": {
+    "lat": 48.5927166,
+    "lon": 2.3055218
+  },
+  "1 Avenue Emile Cossonneau, 93160 NOISY LE GRAND": {
+    "lat": 48.8491426,
+    "lon": 2.5533903
+  },
+  "50 ROUTE DE PORT ROYAL DES CHAMPS, 78114 MAGNY-LES HAMEUX": {
+    "lat": 42.81076,
+    "lon": 0.7105
+  },
+  "27 chemin de l'Auberderie, 78160 Marly le roi": {
+    "lat": 48.8667277,
+    "lon": 2.0804362
+  },
+  "3B Chemin de la Censive du Tertre, 44300 Nantes": {
+    "lat": 47.2432682,
+    "lon": -1.5547335
+  },
+  "2, chemin du Breneau, 44250 SAINT-BREVIN-LES-PINS": {
+    "lat": 47.2033746,
+    "lon": -2.1532257
+  },
+  "23 rue Charles DARWIN, 15000 AURILLAC": {
+    "lat": 44.9199548,
+    "lon": 2.4264837
+  },
+  "82 avenue du général Leclerc, 95480 PIERRELAYE": {
+    "lat": 49.0185029,
+    "lon": 2.1506588
+  },
+  "rue Louis Blanc (locaux de l'ASD 24), 24300 Périgueux": {
+    "lat": 45.5372,
+    "lon": 0.4935
+  },
+  "undefined, 44 Nantes": {
+    "lat": 47.2625859,
+    "lon": -1.3395441
+  },
+  "83 boulevard de l'hôpital, 75013 PARIS": {
+    "lat": 48.8387405,
+    "lon": 2.3612486
+  },
+  "13 rue Santeuil, 75005 PARIS": {
+    "lat": 48.8398174,
+    "lon": 2.353964
+  },
+  "17 avenue du 8 mai 1945, 91120 PALAISEAU": {
+    "lat": 48.7108958,
+    "lon": 2.2443952
+  },
+  "86 rue du Président Salvadore Allende, 92700 COLOMBES": {
+    "lat": 48.9188,
+    "lon": 2.254
+  },
+  "119 avenue Pierre Brossolette, 92120 MONTROUGE": {
+    "lat": 48.8172558,
+    "lon": 2.3074645
+  },
+  "1012 avenue Roger Salengro, 92370 CHAVILLE": {
+    "lat": 48.8103093,
+    "lon": 2.1908214
+  },
+  "11 , IMPASSE REILLE, 75014 PARIS": {
+    "lat": 48.8261388,
+    "lon": 2.3395813
+  },
+  "101 rue de la Gare, 45000 Orléans": {
+    "lat": 47.913685,
+    "lon": 1.9014153
+  },
+  "101 rue de la Gare, 45000 Orleans": {
+    "lat": 47.913685,
+    "lon": 1.9014153
+  },
+  "3 rue de Champfleuri, 77360 VAIRES SUR MARNE": {
+    "lat": 48.8726158,
+    "lon": 2.6509721
+  },
+  "47 rue Thorigny, 77500 CHELLES": {
+    "lat": 48.8826958,
+    "lon": 2.6152369
+  },
+  "54 Boulevard CHILPERIC, 77500 CHELLES": {
+    "lat": 48.8749613,
+    "lon": 2.5837787
+  },
+  "92 Avenue de Paris, 94800 VILLEJUIF": {
+    "lat": 48.8003598,
+    "lon": 2.3650795
+  },
+  "17 rue Jacques Amyot, 77000 Melun": {
+    "lat": 48.5384045,
+    "lon": 2.65841
+  },
+  "82 avenue du général Leclerc 95480 PIERRELAYE, 95480 PIERRELAYE": {
+    "lat": 49.0185029,
+    "lon": 2.1506588
+  },
+  "6 RUE LEBOUTEUX, 75017 PARIS": {
+    "lat": 48.8836055,
+    "lon": 2.316308
+  },
+  "05 rue de chartres, undefined undefined": {
+    "lat": 50.7286117,
+    "lon": 3.1444402
+  },
+  "26 rue Eugène Pottier, 93000 BOBIGNY": {
+    "lat": 48.9106984,
+    "lon": 2.4601971
+  },
+  "15 rue du Vieux Pont, 92000 NANTERRE, undefined undefined": {
+    "lat": 48.8897606,
+    "lon": 2.1867934
+  },
+  "3 avenue Monseigneur Mouëzy, 35000 Rennes": {
+    "lat": 48.102425,
+    "lon": -1.6548619
+  },
+  "3 Avenue Monseigneur Mouezy, 35000 RENNES": {
+    "lat": 48.102425,
+    "lon": -1.6548619
+  },
+  "1 rue Chardon-Lagache, 75016 Paris": {
+    "lat": 48.8469685,
+    "lon": 2.2687163
+  },
+  "4 parvis Corentin Celton, 92130 ISSY LES MOULINEAUX": {
+    "lat": 48.8276195,
+    "lon": 2.2788043
+  },
+  "41 rue du Pré Gauchet, 44000 Nantes": {
+    "lat": 47.2142372,
+    "lon": -1.5400345
+  },
+  "26 rue Saint Claude, 93190 Livry Gargan": {
+    "lat": 48.9211053,
+    "lon": 2.5451312
+  },
+  "54 Bld Chilpéric, 77500 CHELLES": {
+    "lat": 48.8811,
+    "lon": 2.5929
+  },
+  "82, rue du gros buisson, 93250 Villemomble": {
+    "lat": 48.8894,
+    "lon": 2.492839
+  },
+  "17 plavce place cordesse, 48 100 ST ETIENNE DE MAURS": {
+    "lat": 44.71117,
+    "lon": 2.19832
+  },
+  "17 place cordesse, 48100 MARVEJOLS": {
+    "lat": 44.5525827,
+    "lon": 3.2912743
+  },
+  "2 rue Dutour de Noirfosse, 02880 BUCY LE LONG": {
+    "lat": 49.393098,
+    "lon": 3.392564
+  },
+  "17/19 place Jacques AMYOT, 77000 Melun": {
+    "lat": 48.5386395,
+    "lon": 2.6581382
+  },
+  "18 Avenue du Maréchal Leclerc, 93190 livry gargan": {
+    "lat": 48.9206128,
+    "lon": 2.5403205
+  },
+  "6 rue Archimède, 10600 La Chapelle St Luc": {
+    "lat": 48.3173212,
+    "lon": 4.0424105
+  },
+  "1 Rue Newton, 35760 MONTGERMONT": {
+    "lat": 48.1554579,
+    "lon": -1.7069297
+  },
+  "undefined, 75015 Paris": {
+    "lat": 48.8414302,
+    "lon": 2.2961649
+  },
+  "127 rue blomet, 75015 undefined": {
+    "lat": 48.8396766,
+    "lon": 2.296714
+  },
+  "54 rue du Ruisseau, 75018 Paris": {
+    "lat": 48.8942094,
+    "lon": 2.3406383
+  },
+  "6 8 villa gagliardini, 75020 paris": {
+    "lat": 48.8755353,
+    "lon": 2.40333
+  },
+  "14 rue de Beaune, 93100 Montreuil": {
+    "lat": 48.8618309,
+    "lon": 2.4359251
+  },
+  "1 rue Diderot, 69600 OULLINS": {
+    "lat": 45.7156207,
+    "lon": 4.810093
+  },
+  "CENTRE COMMERCIAL LES SAISONS, 77100 MEAUX": {
+    "lat": 48.9294,
+    "lon": 2.8959
+  },
+  "1 avenue Pierre Sémard, undefined Ivry-sur-Seine": {
+    "lat": 48.8207713,
+    "lon": 2.3797449
+  },
+  "17 rue Saint-Just, 75017 Paris": {
+    "lat": 48.8962652,
+    "lon": 2.3141455
+  },
+  "8 avenue des Thébaudières -18ème étage-Aile C, 44800 SAINT HERBLAIN": {
+    "lat": 47.238769,
+    "lon": -1.6107713
+  },
+  "30 K MAIL DES CHARMILLES, 10000 TROYES": {
+    "lat": 48.2958021,
+    "lon": 4.0847362
+  },
+  "8 bis Avenue René Coty, 75014 PARIS": {
+    "lat": 48.8321543,
+    "lon": 2.3329788
+  },
+  "4 rue jean Moinon, 75010 PARIS": {
+    "lat": 48.8737689,
+    "lon": 2.3705874
+  },
+  "100 rue Doudeauville, 75018 PARIS": {
+    "lat": 48.8884357,
+    "lon": 2.3486732
+  },
+  "8 bis avenue Rene Coty, 75014 Paris": {
+    "lat": 48.8321543,
+    "lon": 2.3329788
+  },
+  "19 avenue de la Close, 44 300 Nantes": {
+    "lat": 47.21725,
+    "lon": -1.55336
+  },
+  "1012 AVENUE ROGER SALLENGRO, 92370 CHAVILLE": {
+    "lat": 48.8057,
+    "lon": 2.1886
+  },
+  "32 boulevard Lannes Paris 16, 75016 PARIS": {
+    "lat": 48.8632979,
+    "lon": 2.2688004
+  },
+  "127 rue du Général Leclerc, undefined ROSNY SOUS BOIS": {
+    "lat": 48.865062,
+    "lon": 2.496033
+  },
+  "14 RUE DE LA BEAUNES, 93 MONTREUIL": {
+    "lat": 48.86415,
+    "lon": 2.44322
+  },
+  "undefined, 44 000 Nantes": {
+    "lat": 47.2186371,
+    "lon": -1.5541362
+  }
+}
