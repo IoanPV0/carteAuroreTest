@@ -50,8 +50,15 @@ window.onload = async function() {
         const coords = await getOrGeocode(adresse);
         if (coords) {
             L.marker([coords.lat, coords.lon]).addTo(map)
-            .bindPopup(`<strong>${nom}</strong><p>${adresse}</p><p>Territoire : ${territoire}</p><p>Date ouverture : ${dateOuverture}</p><p>Description : ${description}</p>`);
-        }
+            .bindPopup(`
+                <strong>${nom}</strong>
+                <p>${adresse}</p>
+                <p>Territoire : ${territoire}</p>
+                <p>Date ouverture : ${dateOuverture}</p>
+                <p>Description : ${description}</p>
+                <button onclick="copyToClipboard(\`${sanitize(territoire)}\`, \`${sanitize(row.Adresse)}\`, \`${sanitize(row.Ville)}\`, \`${sanitize(row.CP)}\`)">Copier les informations dans le presse papier</button>
+            `);
+       }
         } catch (err) {
         console.error("Erreur de géocodage:", err);
         }
@@ -108,4 +115,28 @@ function exportCache() {
     .catch(error => {
     console.error('Erreur lors de la sauvegarde du cache :', error);
     });
+}
+
+function sanitize(str) {
+    return String(str || '').replace(/`/g, "'").replace(/\\/g, "\\\\").replace(/\$/g, "\\$");
+}
+
+
+function copyToClipboard(territoire, adresse, ville, cp) {
+    const parts = [
+        territoire || '',
+        adresse || '',
+        ville || '',
+        cp || ''
+    ];
+    const text = parts.filter(Boolean).join(', ');
+
+    navigator.clipboard.writeText(text)
+        .then(() => {
+            alert('Informations copiées dans le presse-papiers !');
+        })
+        .catch(err => {
+            console.error('Erreur lors de la copie :', err);
+            alert('Erreur lors de la copie.');
+        });
 }
