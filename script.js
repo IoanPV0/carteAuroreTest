@@ -46,24 +46,25 @@ window.onload = async function() {
         let dateOuverture = row["Date ouverture"];
 
         if (typeof dateOuverture === 'number') {
-        dateOuverture = excelDateToJSDate(dateOuverture);
+            dateOuverture = excelDateToJSDate(dateOuverture);
         }
         try {
-        const coords = await getOrGeocode(adresse);
-        if (coords) {
-            coords = applyJitterIfDuplicate(coords, usedCoords);
-            L.marker([coords.lat, coords.lon]).addTo(map)
-            .bindPopup(`
-                <strong>${nom}</strong>
-                <p>${adresse}</p>
-                <p>Territoire : ${territoire}</p>
-                <p>Date ouverture : ${dateOuverture}</p>
-                <p>Description : ${description}</p>
-                <button onclick="copyToClipboard(\`${sanitize(territoire)}\`, \`${sanitize(row.Adresse)}\`, \`${sanitize(row.Ville)}\`, \`${sanitize(row.CP)}\`)">Copier les informations dans le presse papier</button>
-            `);
-       }
+            let coords = await getOrGeocode(adresse);
+            if (coords) 
+            {
+                coords = applyJitterIfDuplicate(coords, usedCoords);
+                L.marker([coords.lat, coords.lon]).addTo(map)
+                .bindPopup(`
+                    <strong>${nom}</strong>
+                    <p>${adresse}</p>
+                    <p>Territoire : ${territoire}</p>
+                    <p>Date ouverture : ${dateOuverture}</p>
+                    <p>Description : ${description}</p>
+                    <button onclick="copyToClipboard(\`${sanitize(territoire)}\`, \`${sanitize(row.Adresse)}\`, \`${sanitize(row.Ville)}\`, \`${sanitize(row.CP)}\`)">Copier les informations dans le presse papier</button>
+                `);
+            }
         } catch (err) {
-        console.error("Erreur de géocodage:", err);
+            console.error("Erreur de géocodage:", err);
         }
     }
 
