@@ -35,6 +35,8 @@ window.onload = async function() {
 
     const ouvertData = jsonData.filter(row => row.Statut === "Ouvert");
     console.clear();
+    const usedCoords = new Set();
+
 
     for (const row of ouvertData) {
         const adresse = `${row.Adresse}, ${row.CP} ${row.Ville}`;
@@ -49,6 +51,7 @@ window.onload = async function() {
         try {
         const coords = await getOrGeocode(adresse);
         if (coords) {
+            coords = applyJitterIfDuplicate(coords, usedCoords);
             L.marker([coords.lat, coords.lon]).addTo(map)
             .bindPopup(`
                 <strong>${nom}</strong>
@@ -73,6 +76,18 @@ window.onload = async function() {
     }
 };
 
+function applyJitterIfDuplicate(coords, usedCoords) {
+    const key = `${coords.lat},${coords.lon}`;
+    if (usedCoords.has(key)) {
+        // déplacement aléatoire jusqu'à ±10 mètres (~0.0001 degrés)
+        coords.lat += (Math.random() - 0.5) * 0.0002;
+        coords.lon += (Math.random() - 0.5) * 0.0002;
+    }
+    usedCoords.add(`${coords.lat},${coords.lon}`);
+    return coords;
+}
+
+
 async function getOrGeocode(adresse) {
     if (cache[adresse]) return cache[adresse];
 
@@ -81,12 +96,12 @@ async function getOrGeocode(adresse) {
     const data = await res.json();
 
     if (data.results.length > 0) {
-    const coords = {
-        lat: data.results[0].geometry.lat,
-        lon: data.results[0].geometry.lng
-    };
-    cache[adresse] = coords;
-    return coords;
+        const coords = {
+            lat: data.results[0].geometry.lat,
+            lon: data.results[0].geometry.lng
+        };
+        cache[adresse] = coords;
+        return coords;
     }
 
     return null;
