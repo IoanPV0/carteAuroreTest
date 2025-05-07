@@ -97,7 +97,7 @@ async function getOrGeocode(adresse) {
     const data = await res.json();
 
     if (data.results.length > 0) {
-        const coords = {
+        let coords = {
             lat: data.results[0].geometry.lat,
             lon: data.results[0].geometry.lng
         };
