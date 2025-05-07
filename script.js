@@ -123,13 +123,69 @@ function sanitize(str) {
 
 
 function copyToClipboard(territoire, adresse, ville, cp) {
-    const parts = [
-        territoire || '',
+    if (territoire === undefined)
+    {
+        territoire = '';
+    }
+    if (adresse === undefined)
+    {
+        adresse = '';
+    }
+    if (ville === undefined)
+    {
+        ville = '';
+    }
+    if (cp === undefined)
+    {
+        cp = '';
+    }
+
+    if (territoire.includes('SOLIFO'))
+    {
+        territoire = 'SOLIFO';
+    }
+    if (territoire.includes('Ouest'))
+    {
+        territoire = 'Ouest';
+    }
+    if (territoire.includes('SAVAH'))
+    {
+        territoire = 'SAVAH';
+    }
+    if (territoire.includes('Siège'))
+    {
+        territoire = 'Siège';
+    }
+    if (territoire.includes('PEIFS'))
+    {
+        territoire = 'PEIFS';
+    }
+    if (territoire.includes('PSC'))
+    {
+        territoire = 'PSC';
+    }
+    if (territoire.includes('SARAO'))
+    {
+        territoire = 'SARAO';
+    }
+    if (territoire.includes('PN'))
+    {
+        territoire = 'PN';
+    }
+
+    const adresseParts = [
         adresse || '',
         ville || '',
         cp || ''
+    ]
+    const adresseComplete = adresseParts.filter(Boolean).join(' ');
+
+    const parts = [
+        territoire || '',
+        adresseComplete
     ];
-    const text = parts.filter(Boolean).join(', ');
+
+    const text = parts.filter(Boolean).join('|');
 
     navigator.clipboard.writeText(text)
         .then(() => {
